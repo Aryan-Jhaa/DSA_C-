@@ -40,6 +40,14 @@ int main(){
     tea.servings = 5;
     tea.ingredients = {"Water", "Tea leaves", "Sugar"};
     tea.displayTea();
+    
+    cout << endl;
 
+    Tea tea2;
+
+    tea2.teaName = "Lemon Tea";
+    tea2.servings = 2;
+    tea2.ingredients = {"Water", "Honey", "Lemon"};
+    tea2.displayTea();
     return 0;
 }
